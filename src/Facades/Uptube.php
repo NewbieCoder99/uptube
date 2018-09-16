@@ -1,6 +1,6 @@
 <?php
 
-namespace Newbiecoder\Uptube\Facades;
+namespace Newbiecoder99\Uptube\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

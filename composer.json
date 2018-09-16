@@ -1,0 +1,43 @@
+{
+    "name": "newbiecoder99/uptube",
+    "description": "Upload a video to YouTube with Laravel 5.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Qudrat Nurfajar Yasin SUtisna",
+            "email": "fajarpunya99@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "illuminate/support": "^5.4",
+        "google/apiclient": "^2.2",
+        "nesbot/carbon": "^1.22"
+    },
+    "require-dev": {
+        "orchestra/testbench": "~3.2",
+        "phpunit/phpunit": "~5.0",
+        "phpunit/phpcov": "~3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Newbiecoder99\\Uptube\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Newbiecoder99\\Uptube\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "stable",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Newbiecoder99\\Uptube\\UptubeServiceProvider"
+            ],
+            "aliases": {
+                "Uptube": "Newbiecoder99\\Uptube\\Facades\\Uptube"
+            }
+        }
+    }
+}
